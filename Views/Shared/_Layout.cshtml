@@ -9,5 +9,15 @@
     <div>
         @RenderBody()
     </div>
+    @*@if (IsSectionDefined("scripts"))
+    {*@
+        @RenderSection("js", required: false)
+    @*}
+    else
+    {
+
+    }*@
+
+
 </body>
 </html>
