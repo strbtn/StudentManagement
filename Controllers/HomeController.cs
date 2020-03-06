@@ -15,10 +15,11 @@ namespace StudentManagement.Controllers
         {
             _studentRepository = studentRepository;
         }
-        public string Index()
+        public IActionResult Index()
         {
-            //返回学生名字
-            return _studentRepository.GetStudent(1).Name;
+         IEnumerable<Student> students=   _studentRepository.GetAllStudents();
+            //返回学生列表
+            return View(students);
         }
 
         public IActionResult Details()

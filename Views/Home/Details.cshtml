@@ -1,7 +1,8 @@
 ﻿@*@model StudentManagement.Models.Student*@
 @model StudentManagement.ViewModels.HomeDetailsViewModel
 @{
-    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "学生详情页";
 }
 
 <h3>@Model.PageTitle</h3>

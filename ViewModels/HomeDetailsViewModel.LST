@@ -1,0 +1,36 @@
+C51 COMPILER V9.60.0.0   HOMEDETAILSVIEWMODEL                                              03/05/2020 15:33:11 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE HOMEDETAILSVIEWMODEL
+OBJECT MODULE PLACED IN F:\”Ô—‘—ßœ∞\.net Core\StudentManagement\ViewModels\HomeDetailsViewModel.OBJ
+COMPILER INVOKED BY: D:\Program Files\Keil_v5\C51\BIN\C51.exe F:\”Ô—‘—ßœ∞\.net Core\StudentManagement\ViewModels\HomeDet
+                    -ailsViewModel.cs
+
+line level    source
+
+   1          Ôªøusing StudentManagement.Models;
+*** ERROR C100 IN LINE 1 OF F:\”Ô—‘—ßœ∞\.net Core\StudentManagement\ViewModels\HomeDetailsViewModel.cs: unprintable char
+             -acter 0xEF skipped
+*** ERROR C100 IN LINE 1 OF F:\”Ô—‘—ßœ∞\.net Core\StudentManagement\ViewModels\HomeDetailsViewModel.cs: unprintable char
+             -acter 0xBB skipped
+*** ERROR C100 IN LINE 1 OF F:\”Ô—‘—ßœ∞\.net Core\StudentManagement\ViewModels\HomeDetailsViewModel.cs: unprintable char
+             -acter 0xBF skipped
+*** ERROR C141 IN LINE 1 OF F:\”Ô—‘—ßœ∞\.net Core\StudentManagement\ViewModels\HomeDetailsViewModel.cs: syntax error nea
+             -r 'using', expected 'hdata'
+*** ERROR C129 IN LINE 1 OF F:\”Ô—‘—ßœ∞\.net Core\StudentManagement\ViewModels\HomeDetailsViewModel.cs: missing ';' befo
+             -re '.'
+   2          using System;
+   3          using System.Collections.Generic;
+   4          using System.Linq;
+   5          using System.Threading.Tasks;
+   6          
+   7          namespace StudentManagement.ViewModels
+   8          {
+   9              public class HomeDetailsViewModel
+  10              {
+  11                  public Student student { get; set; }
+  12                  public string PageTitle { get; set; }
+  13              }
+  14          }
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  5 ERROR(S)
