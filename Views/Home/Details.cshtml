@@ -1,0 +1,17 @@
+﻿@*@model StudentManagement.Models.Student*@
+@model StudentManagement.ViewModels.HomeDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h3>@Model.PageTitle</h3>
+<div>
+    姓名： @Model.student.Name
+</div>
+<div>
+    邮箱：@Model.student.Email
+    
+</div>
+<div>
+    班级：@Model.student.ClassName
+</div>
